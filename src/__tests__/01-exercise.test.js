@@ -10,8 +10,6 @@ describe("01-exercise", () => {
     expect.assertions(1);
 
     // Finish the test
-    test('returns the sum of 2 numbers', ()=> {
-      expect(add(2, 4).toBe(6))
-    })
+      expect(add(2, 4)).toBe(6);
   });
 });
